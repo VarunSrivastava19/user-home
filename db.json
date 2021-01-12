@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "Name": "HTML",
+        "Content":"HTML Quiz to test ability.",
+        "image": "https://syntaxxx.com/wp-content/uploads/2014/08/html5-logo-600-580x580.jpg"
+    },
+    {
+        "id": 2,
+        "Name": "CSS",
+        "Content":"CSS Quiz to test ability.",
+        "image": "https://syntaxxx.com/wp-content/uploads/2014/08/html5-logo-600-580x580.jpg"
+    },
+    {
+        "id": 3,
+        "Name": "JS",
+        "Content":"JS Quiz to test ability.",
+        "image": "https://syntaxxx.com/wp-content/uploads/2014/08/html5-logo-600-580x580.jpg"
+    },
+    {
+        "id": 4,
+        "Name": "Node",
+        "Content":"CSS Quiz to test ability.",
+        "image": "https://syntaxxx.com/wp-content/uploads/2014/08/html5-logo-600-580x580.jpg"
+    }
+
+]

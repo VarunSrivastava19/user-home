@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script src="../js/home.js"></script>
+      <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- Branding -->
+      <a class="navbar-brand" href="#">Quizzards</a>
+      <!-- /Branding -->
+      <!-- Responsive Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- /Responsive Button -->
+      <div class="collapse navbar-collapse" id="navbarText">
+        <!-- Responsive Nav Links -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Add anything</a>
+          </li>
+          <!-- User Button for Tabs and smaller screens -->
+          <li class="nav-item nav-pills d-lg-none">
+            <a class="nav-link active text-white bg-dark" href="#">User</a>
+            <a class="dropdown-item" href="#" role="button">Profile</a>
+            <a class="dropdown-item" href="#" role="button">Settings</a>
+            <a class="dropdown-item text-white bg-danger" href="#" role="button">Log Out</a>
+          </li>
+        </ul>
+        <!-- /Responsive Nav Links -->
+        <!-- User Button -->
+        <ul class="nav nav-pills d-lg-block d-none">
+          <!-- Navbar text with an inline element -->
+           <!-- For Desktops & above -->
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">User</a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="#">Profile</a>
+              <a class="dropdown-item" href="#">Settings</a>
+              <a class="dropdown-item text-white bg-danger" href="#">Log Out</a>
+            </div>
+          </li>
+          <!-- /For Desktops & above -->
+        </ul>
+        
+        <!-- For Tablets and below -->
+        <!-- <ul class="nav nav-pills d-lg-none ">
+          <li class="nav-item mr-auto">
+            <a class="nav-link active text-white bg-dark" href="#" aria-expanded="false">User</a>
+            <a class="dropdown-item" href="#" role="button">Profile</a>
+            <a class="dropdown-item" href="#" role="button">Settings</a>
+            <a class="dropdown-item text-white bg-danger" href="#" role="button">Log Out</a>
+          </li>
+        </ul> -->
+        <!-- /User Button -->
+      </div>
+    </nav>
+
+
+    <!-- Quiz Card section -->
+    <div class="container">
+      <div class="row">
+        <!-- Dynamic Content loaded by JS. -->
+      </div>
+    </div>
+  </body>
+</html>
