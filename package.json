@@ -7,5 +7,17 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VarunSrivastava19/user-home.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VarunSrivastava19/user-home/issues"
+  },
+  "homepage": "https://github.com/VarunSrivastava19/user-home#readme",
   "description": ""
 }
